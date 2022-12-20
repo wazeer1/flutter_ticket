@@ -1,3 +1,4 @@
+import 'package:coffee/screens/ticket_view.dart';
 import 'package:coffee/utils/app_styles.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
 import 'package:flutter/cupertino.dart';
@@ -80,7 +81,8 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
-          
+          const Gap(15),
+          TicketView(),
         ],
       ),
     );
